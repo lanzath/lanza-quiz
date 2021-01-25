@@ -1,0 +1,45 @@
+{
+  "bg": "https://images.hdqwalls.com/download/retrowave-city-sunset-4k-8f-2560x1700.jpg",
+  "title": "Lanza Quiz",
+  "description": "",
+  "questions": [
+    {
+      "image": "",
+      "title": "",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D",
+        "Alternativa E"
+      ]
+    },
+    {
+      "image": "",
+      "title": "",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "Alternativa A",
+        "Alternativa B",
+        "Alternativa C",
+        "Alternativa D",
+        "Alternativa E"
+      ]
+    }
+  ],
+  "external": [],
+  "theme": {
+    "colors": {
+      "primary": "#FEC763",
+      "secondary": "#FF9800",
+      "mainBg": "#1C1814",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
