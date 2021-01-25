@@ -1,4 +1,9 @@
-# Example app with styled-components
+
+# <p align="center"> Projeto Quiz - Imersão [Alura](https://www.alura.com.br/)</p>
+
+## Projeto criado com Next JS e styled components, instruções abaixo (gerado pelo próprio next)
+
+## Example app with styled-components
 
 This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
 
