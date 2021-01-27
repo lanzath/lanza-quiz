@@ -100,7 +100,7 @@ export default function QuizPage() {
   useEffect(() => {
     setTimeout(() => {
       setScreenState(screenStates.quiz);
-    }, 3 * 1000);
+    }, 1000);
   }, []);
 
   function handleQuizSubmit() {
