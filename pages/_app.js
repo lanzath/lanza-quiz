@@ -23,6 +23,15 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000;
+    };
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: #373737;
+    };
 `;
 
 const { theme } = db;
