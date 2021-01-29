@@ -1,15 +1,24 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+import React from 'react';
+import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
-import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
 // import './style.scss';
 
 function Logo({ className }) {
+  const router = useRouter();
   return (
     <div className={className} width="135" height="67" viewBox="0 0 135 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <h1 className="glitch">LanzaQuiz</h1>
+      <h1
+        onClick={() => router.push('/')}
+        className="glitch"
+      >
+        LanzaQuiz
+      </h1>
     </div>
   );
 }
