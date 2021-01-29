@@ -1,40 +1,82 @@
 {
-  "bg": "https://images.hdqwalls.com/download/retrowave-city-sunset-4k-8f-2560x1700.jpg",
+  "bg": "https://wallacemaxters.com.br/uploads/covers/git.jpg",
   "title": "Quiz Title",
   "description": "Em construção, favor aguardar (:",
   "questions": [
     {
-      "image": "https://i.pinimg.com/736x/3e/1d/25/3e1d25120fe6a9a2d1eb2d8c60b9785c.jpg",
-      "title": "Título Pergunta 1",
-      "description": "Descrição",
-      "answer": 1,
+      "image": "https://developertools.com.br/wp-content/uploads/2018/04/Git-Logo-1788C.png",
+      "title": "Qual o comando para inicialização de um novo repositório Git?",
+      "description": "Sabemos que é importante trabalhar com versionamento de código, como começamos ?",
+      "answer": 3,
       "alternatives": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D",
-        "Alternativa E"
+        "git initialize",
+        "git start",
+        "start git repo",
+        "git init",
+        "git_start"
       ]
     },
     {
-      "image": "https://i.kym-cdn.com/entries/icons/mobile/000/035/818/cover1.jpg",
-      "title": "Título Pergunta 2",
-      "description": "Descrição",
+      "image": "https://miro.medium.com/max/10000/1*v6XeL5ZKVBpwwZlqHp-Isw.jpeg",
+      "title": "O que é \"commit\"",
+      "description": "Qual a melhor definição para um commit ?",
+      "answer": 0,
+      "alternatives": [
+        "Refere-se ao processo de tornar permanente um conjunto de alterações",
+        "É um repositório remoto",
+        "Plataforma de controle de versão",
+        "Comando para salvar um arquivo",
+        "Comando para desfazer últimas alterações em um código"
+      ]
+    },
+    {
+      "image": "https://dkrn4sk0rn31v.cloudfront.net/2019/02/01142244/GitHub.png",
+      "title": "Qual das alternativas abaixo não é uma plataforma de versionamento",
+      "description": "Apenas uma alternativa é a incorreta, consegue encontrá-la?",
       "answer": 2,
       "alternatives": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D",
-        "Alternativa E"
+        "BitBucket",
+        "GitLab",
+        "Stack Overflow",
+        "Github",
+        "Todas as anteriores são plataforma de armazenamento e versionamento de código"
+      ]
+    },
+    {
+      "image": "https://dkrn4sk0rn31v.cloudfront.net/2019/02/01142244/GitHub.png",
+      "title": "Zé é dev back-end, acabou de criar e configurar o arquivo chamado Middlewares.php",
+      "description": "Como Zé pode adicionar apenas o recém criado arquivo no controle de versão com o git?",
+      "answer": 2,
+      "alternatives": [
+        "git add .",
+        "git add Middlewares",
+        "git add Midlewares.php",
+        "git --add Middlewares",
+        "git --add Middlewares.php"
+      ]
+    },
+    {
+      "image": "https://brunocapuano.files.wordpress.com/2015/10/clipboard01.jpg",
+      "title": "Zé percebeu que cometeu um erro com configuração do CORS e fez alterações no código",
+      "description": "Como zé pode \"commitar\" seu código com a mensagem: \"middlewares config updated\"?",
+      "answer": 1,
+      "alternatives": [
+        "git commit --m:'middlewares config updated'",
+        "git commit -m'middlewares config updated'",
+        "git commit --message:'middlewares config updated'",
+        "git commit --message='middlewares config updated'",
+        "git commit 'middlewares config updated'"
       ]
     }
   ],
-  "external": [],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-marvel.omariosouto.vercel.app/"
+  ],
   "theme": {
     "colors": {
-      "primary": "#FEC763",
-      "secondary": "#FF9800",
+      "primary": "#EE5032",
+      "secondary": "#8BBE58",
       "mainBg": "#1C1814",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
