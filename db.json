@@ -33,12 +33,12 @@
       "image": "https://dkrn4sk0rn31v.cloudfront.net/2019/02/01142244/GitHub.png",
       "title": "Qual das alternativas abaixo não é uma plataforma de versionamento",
       "description": "Apenas uma alternativa é a incorreta, consegue encontrá-la?",
-      "answer": 2,
+      "answer": 3,
       "alternatives": [
         "BitBucket",
         "GitLab",
-        "Stack Overflow",
         "Github",
+        "Stack Overflow",
         "Todas as anteriores são plataforma de armazenamento e versionamento de código"
       ]
     },
@@ -46,13 +46,13 @@
       "image": "https://dkrn4sk0rn31v.cloudfront.net/2019/02/01142244/GitHub.png",
       "title": "Zé é dev back-end, acabou de criar e configurar o arquivo chamado Middlewares.php",
       "description": "Como Zé pode adicionar apenas o recém criado arquivo no controle de versão com o git?",
-      "answer": 2,
+      "answer": 4,
       "alternatives": [
         "git add .",
         "git add Middlewares",
-        "git add Midlewares.php",
         "git --add Middlewares",
-        "git --add Middlewares.php"
+        "git --add Middlewares.php",
+        "git add Midlewares.php"
       ]
     },
     {
