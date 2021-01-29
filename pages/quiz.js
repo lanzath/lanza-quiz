@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState, useEffect } from 'react';
+import { Lottie } from '@crello/react-lottie';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -8,6 +9,7 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
+import loadingAnimation from '../src/screens/Quiz/animations/loading.json';
 
 function ResultWidget({ results }) {
   return (
@@ -45,15 +47,14 @@ function ResultWidget({ results }) {
 
 function LoadingWidget() {
   return (
-    <Widget>
-      <Widget.Header>
-        Carregando...
-      </Widget.Header>
-
-      <Widget.Content>
-        [Loading to be implemented xD]
-      </Widget.Content>
-    </Widget>
+    <Widget.Content style={{ display: 'flex', justifyContent: 'center' }}>
+      <Lottie
+        width="200px"
+        height="200px"
+        className="lottie-container basic"
+        config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+      />
+    </Widget.Content>
   );
 }
 
@@ -120,7 +121,7 @@ function QuestionWidget({
                 data-status={isQuestionSubmited && alternativeStatus}
               >
                 <input
-                  // style={{ display: 'none' }}
+                  style={{ display: 'none' }}
                   id={alternativeId}
                   name={questionId}
                   onChange={() => setSelectedAlternative(alternativeIndex)}
